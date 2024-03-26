@@ -14,17 +14,36 @@
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Kode+Mono:wght@400..700&display=swap" rel="stylesheet">  
     </head>
-    
-	<body>
-
-		 <img id="banner" src="banner.jpg">
-
-		<h1 style="text-align: center">Sobre a Barbearia Alura</h1>
- 
-		<p>Localizada no coração da cidade a <strong>Barbearia Alura</strong> traz para o mercado o que há de melhor para o seu cabelo e barba. Fundada em 2019, a Barbearia Alura já é destaque na cidade e conquista novos clientes a cada dia.</p>
-
-		<p id="missao" style="font-size: 20px"><em>Nossa missão é: <strong>"Proporcionar auto-estima e qualidade de vida aos clientes"</strong>.</em></p>
-
-		<p>Oferecemos profissionais experientes e antenados às mudanças no mundo da moda. O atendimento possui padrão de excelência e agilidade, garantindo qualidade e satisfação dos nossos clientes.</p>
+    <body> <!--dentro do body que escrevemos tudo que deve aparecer na página-->
+        <!--class define classes para editar no arquivo CSS-->
+      <section class="conteudo-principal"></section> <!--define uma seção no documento-->
+      <h2 class="titulo-principal">Blablablabla<span>_</span></h2> <!--h2 é um tamanho de fonte, como um subtitulo-->
+      <div class="conteudo">
+      <div class="botoes"> <!--div cria um bloco genérico para agrupar conteúdos-->
+        <button class="botao ativo">Botão 1</button> <!--button cria botoes-->
+        <button class="botao">Botão 2</button>
+        <button class="botao">Botão 3</button>
+        <button class="botao">Botão 4</button>
+        </div>
+        <script src="main.js"></script> <!--cria um espaço para encorporar o arquivo JavaScript no nosso documento HTML-->
+        <div class="abas-textos"> <!--div para dividir os textos em cada botão-->
+            <div class="aba-conteudo"> <!--o que aparecerá quando clicar no botão 1-->
+                <h3 class="aba-conteudo-titulo-principal">Estudar 4 cursos na Alura</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+            </div>
+            <div class="aba-conteudo"><!--o que aparecerá quando clicar no botão 2-->
+                <h3 class="aba-conteudo-titulo-principal">Criar 5 projetos em JavaScript</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+            </div>
+            <div class="aba-conteudo"><!--o que aparecerá quando clicar no botão 3-->
+                <h3 class="aba-conteudo-titulo-principal">Criar um portifólio com meus 3 melhores projetos</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+            </div>
+            <div class="aba-conteudo"><!--o que aparecerá quando clicar no botão 4-->
+                <h3 class="aba-conteudo-titulo-principal">Atualizar meu currículo com meus certificados da Alura</h3>
+                <h4 class="aba-conteudo-titulo-secundario">Tempo para completar o objetivo</h4>
+            </div>
+        </div>
+      </div>
     </body>
 </html>
