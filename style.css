@@ -31,9 +31,7 @@ body{ /*define estilização geral do conteúdo da página*/
     color: var(--verde); 
 }
 .botao{ /*classe botao no HTML*/
-    font-family: "Kode Mono", monospace; /*define a fonte utilizada na página*/
-    font-optical-sizing: auto; 
-    font-style: normal;
+    font-family: "Chakra Petch", sans-serif; /*tipo/família da fonte*/
     background-color: var(--botao-inativo); /*var declara a variável criada em root*/
     color: var(--branco);
     display: flex;
@@ -73,10 +71,4 @@ body{ /*define estilização geral do conteúdo da página*/
 }
 .aba-conteudo.ativo{
     display: block;
-}
-.aba-conteudo{
-    display: none;
-}
-.aba-conteudo-titulo-secundario{
-    color:#6FFF57;
 }
